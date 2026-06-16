@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Code } from 'lucide-react';
-import Github from './components/GithubIcon';
 import SearchBar from './components/SearchBar';
 import UserProfile from './components/UserProfile';
 import RepoList from './components/RepoList';
@@ -80,7 +79,6 @@ export default function App() {
       {/* Header Section */}
       <header className="app-header animate-fade-in">
         <div className="app-logo">
-          <Github size={36} />
           <h1>GitSpy</h1>
         </div>
         <p className="app-subtitle">GitHub Developer Profile & Repository Intelligence</p>
